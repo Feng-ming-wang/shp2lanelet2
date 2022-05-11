@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="lanelet2">
+  <node id="1032" visible="true" version="1" lat="36.00001802087" lon="119.00000045521">
+    <tag k="type" v="point" />
+  </node>
+  <node id="1033" visible="true" version="1" lat="36.00001783592" lon="119.00001154381">
+    <tag k="type" v="point" />
+  </node>
+  <node id="1035" visible="true" version="1" lat="36" lon="119">
+    <tag k="type" v="point" />
+  </node>
+  <node id="1036" visible="true" version="1" lat="35.99999981505" lon="119.0000110886">
+    <tag k="type" v="point" />
+  </node>
+  <way id="1034" visible="true" version="1">
+    <nd ref="1032" />
+    <nd ref="1033" />
+  </way>
+  <way id="1037" visible="true" version="1">
+    <nd ref="1035" />
+    <nd ref="1036" />
+  </way>
+  <relation id="1031" visible="true" version="1">
+    <member type="way" ref="1034" role="left" />
+    <member type="way" ref="1037" role="right" />
+    <tag k="type" v="lanelet" />
+  </relation>
+</osm>
